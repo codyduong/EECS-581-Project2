@@ -1,0 +1,4 @@
+total: 85 hours
+coding: 40 hours
+testing: 40 hours
+documenting: 5 hours

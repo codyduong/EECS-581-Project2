@@ -6,18 +6,18 @@ https://www.postgresql.org/download/
 
 3) Create postgres role for app
 
-        CREATE ROLE battleship-app-role WITH LOGIN PASSWORD 'password';
+        CREATE ROLE battleship_app_role WITH LOGIN PASSWORD 'password';
 4) Create postgres database for app
 
-        CREATE DATABASE battleship-app;
-5) Grant 'create' permission on battleship-app to battleship-app-role
+        CREATE DATABASE battleship_app;
+5) Grant 'create' permission on battleship_app to battleship_app_role
 
-        GRANT create ON DATABASE battleship-app TO battleship-app-role;
+        GRANT create ON DATABASE battleship_app TO battleship_app_role;
 6) With postgres admin user, Connect to newly created postgres database. Using PSQL console, command is
 
-        \c battleship-app;
+        \c battleship_app;
 
-7) Grant 'create' permission on battleship-app tables to battleship-app-role
+7) Grant 'create' permission on battleship_app tables to battleship_app_role
 
-        GRANT create ON SCHEMA public TO battleship-app-role;
-8) Test connection by logging into battleship-app-role with password set at creation and connecting to database battleship-app. If you are able to connect, you can move onto next step in setup guide.
+        GRANT create ON SCHEMA public TO battleship_app_role;
+8) Test connection by logging into battleship_app_role with password set at creation and connecting to database battleship_app. If you are able to connect, you can move onto next step in setup guide.

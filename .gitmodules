@@ -1,7 +1,7 @@
 [submodule "cmx-battleship-online-api"]
 	path = cmx-battleship-online-api
-	url = https://github.com/morriswa/cmx-battleship-online-api
+	url = https://github.com/codyduong/cmx-battleship-online-api
 	
 [submodule "cmx-battleship"]
 	path = cmx-battleship
-	url = https://github.com/morriswa/cmx-battleship
+	url = https://github.com/codyduong/cmx-battleship

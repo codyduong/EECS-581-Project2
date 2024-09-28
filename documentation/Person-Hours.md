@@ -5,7 +5,18 @@
 (Some estimates are negligible or were already completed when estimation was done). For posterity this info is maintained here:
 
 Estimate by task:
-1.
+1. Fixing Project 1 Functionality (est. 1 hour)
+   - Fix Docker File (est. 1 hour)
+     
+2. AI Opponent (est. 4.5 hours)
+   - Easy AI - (est. 1.5 hours)
+     * AI fires at random spaces on grid.
+   - Medium AI (est. 1.5 hours)
+     * AI fires at random spaces until a ship is hit. The AI then fires at orthogonally adjacent spaces.
+   - Hard AI (est. 1.5 hours)
+     * AI knows where the player's ships are and does not miss.
+
+2. Game Addition - Offline Mode (est. 4 hours)
 
 
 ## Actual

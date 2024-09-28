@@ -5,8 +5,8 @@
 (Some estimates are negligible or were already completed when estimation was done). For posterity this info is maintained here:
 
 Estimate by task:
-1. Fixing Project 1 Functionality (est. 1 hour)
-   - Fix Docker File (est. 1 hour)
+1. Fixing Project 1 Functionality (est. 5 hours)
+   - Fix Docker File (est. 5 hour)
      
 2. AI Opponent (est. 4.5 hours)
    - Easy AI - (est. 1.5 hours)
@@ -27,7 +27,7 @@ Cumulative Table
 | Kyler    | 0.5   |
 | Cody     | 6.5   |
 | Joon     | 0.5   |
-| Hayden   | 0.5   |
+| Hayden   | 1.5   |
 | Harrison | 0.5   |
 
 Here is a log of person hours, updated sequentially with oldest first.
@@ -46,3 +46,8 @@ Here is a log of person hours, updated sequentially with oldest first.
   - Person(s): Cody
   - Hour(s): 5.5
   - Task: setup docker and docker-compose
+
+* 2024/09/28
+  - Person(s): Hayden
+  - Hour(s): 1
+  - Task: Created task time estimates

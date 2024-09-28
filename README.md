@@ -10,6 +10,7 @@ Otherwise an abridged version has been constructed below.
 
 ### Dependencies
 
+<!--
 * [Node.js 20](https://nodejs.org/en/download/package-manager)
   + Or use your favorite node version manager:
     - [nvm](https://github.com/nvm-sh/nvm)
@@ -22,13 +23,15 @@ Otherwise an abridged version has been constructed below.
     - [poetry (recommended)](https://python-poetry.org/)
     - [miniconda](https://docs.anaconda.com/miniconda/)
     - [venv](https://docs.python.org/3/library/venv.html)
+-->
+* [Docker](https://www.docker.com/)
 
 This project is a monorepo using [git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
 Some general understanding of this behavior is needed to contribute effectively.
 
-### Initial Commands
+### Monorepo Setup
 
-These are some initial commands to help you get setup (for bash). Provided as a convenience and are not guranteed to work.
+These are some initial commands to help your git setup (for bash). Provided as a convenience and are not guranteed to work.
 
 ```sh
 git clone https://github.com/codyduong/EECS-581-Project2.git
@@ -42,8 +45,18 @@ cd ..
 cd ./cmx-battleship-online-api
 git checkout develop
 cd ..
+# open vscode or your preferred ide in the current working directory
+code .
 ```
 
+### Running
+```sh
+# make sure you have docker desktop open or the docker virtual machine open
+docker-compose up --build
+```
+This will start both the frontend and backend, and any changes will restart the correct service.
+
+<!--
 ### Python Addendum (cmx-battleship-online-api)
 This is an addendum on details on using python. Commands are provided for reference.
 
@@ -79,3 +92,4 @@ source bin/activate # if you are using bash/zsh
 ./Scripts/activate # on windows
 deactivate # leave
 ```
+-->

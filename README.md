@@ -52,7 +52,7 @@ code .
 ### Running
 ```sh
 # make sure you have docker desktop open or the docker virtual machine open
-docker-compose up --build
+docker-compose up --watch
 ```
 This will start both the frontend and backend, and any changes will restart the correct service.
 

@@ -18,13 +18,15 @@ services:
       dockerfile: Dockerfile.frontend
     ports:
       - "4200:4200"
-    volumes:
-      - ./cmx-battleship:/app
-      # prevent overwrite which causes red herring: https://github.com/npm/cli/issues/4828
-      - /app/node_modules
-      - /dev/null:/app/package-lock
-    environment:
-      - HOST=0.0.0.0
+    develop:
+      watch:
+        - action: sync
+          path: ./cmx-battleship
+          target: /app
+          ignore:
+            - node_modules/
+        - action: rebuild
+          path: ./cmx-battleship/package.json
 
   db:
     image: postgres:14

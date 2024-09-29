@@ -5,13 +5,17 @@
 (Some estimates are negligible or were already completed when estimation was done). For posterity this info is maintained here:
 
 Estimate by task:
-1. Fixing Project 1 Functionality (est. 5 hours)
-   - Fix Docker File (est. 5 hour)
+1. Fixing Project 1 Functionality (act. ~6 hours)
+   - For posterity, this was done before any estimation
+   - Fix Docker File (act. ~6 hours with bug fixes)
+   - Fixing functionality is mostly just dockerizing the application to be platform/developer setup agnostic
+     to allow easier setup to work on the project. As an analogy, the application did work out of the box,
+     given you had the right box cutter version.
 
      
 
 2. AI Opponent (est. 4.5 hours)
-   - Easy AI - (est. 1.5 hours)
+   - Easy AI - (est. 1.5 hours, act. 0.5 hours)
 
      * AI fires at random spaces on grid.
 
@@ -23,7 +27,7 @@ Estimate by task:
 
      * AI knows where the player's ships are and does not miss.
 
-2. Game Addition - Offline Mode (est. 4 hours)
+2. Game Addition - Offline Mode (est. 4 hours, act. 4 hours for PoC then 6 hours for fully fleshed out)
 
 ## Actual
 
@@ -70,6 +74,7 @@ Here is a log of person hours, updated sequentially with oldest first.
    + Person(s): Harrison
    + Hour(s): 1
    + Tasks:
+
      - Run and test game locally
      - Attempt to implement AI logic
 

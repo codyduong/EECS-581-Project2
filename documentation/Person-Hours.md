@@ -30,11 +30,11 @@ Estimate by task:
 Cumulative Table
 | Person   | Hours |
 | -------- | ----- |
-| Kyler    | 0.5   |
-| Cody     | 11.5   |
-| Joon     | 0.5   |
-| Hayden   | 1.5   |
-| Harrison | 1.5   |
+| Kyler    | 2.5   |
+| Cody     | 12.5  |
+| Joon     | 2.5   |
+| Hayden   | 3.5   |
+| Harrison | 3.5   |
 
 Here is a log of person hours, updated sequentially with oldest first.
 
@@ -72,3 +72,10 @@ Here is a log of person hours, updated sequentially with oldest first.
    + Tasks:
      - Run and test game locally
      - Attempt to implement AI logic
+
+* 2024/09/28
+  + Person(s): All
+  + Hour(s): 2
+  + Tasks:
+    - Meeting discussing offline API versus online API
+    - More frameworking for mock online API

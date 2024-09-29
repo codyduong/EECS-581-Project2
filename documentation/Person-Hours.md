@@ -7,17 +7,23 @@
 Estimate by task:
 1. Fixing Project 1 Functionality (est. 5 hours)
    - Fix Docker File (est. 5 hour)
+
      
+
 2. AI Opponent (est. 4.5 hours)
    - Easy AI - (est. 1.5 hours)
+
      * AI fires at random spaces on grid.
+
    - Medium AI (est. 1.5 hours)
+
      * AI fires at random spaces until a ship is hit. The AI then fires at orthogonally adjacent spaces.
+
    - Hard AI (est. 1.5 hours)
+
      * AI knows where the player's ships are and does not miss.
 
 2. Game Addition - Offline Mode (est. 4 hours)
-
 
 ## Actual
 
@@ -25,7 +31,7 @@ Cumulative Table
 | Person   | Hours |
 | -------- | ----- |
 | Kyler    | 0.5   |
-| Cody     | 6.5   |
+| Cody     | 11.5   |
 | Joon     | 0.5   |
 | Hayden   | 1.5   |
 | Harrison | 0.5   |
@@ -33,21 +39,29 @@ Cumulative Table
 Here is a log of person hours, updated sequentially with oldest first.
 
 * 2024/09/16 
-  - Person(s): Cody
-  - Hour(s): 0.5
-  - Task: initialize the monorepo
+  + Person(s): Cody
+  + Hour(s): 0.5
+  + Task: initialize the monorepo
 
 * 2024/09/26
-  - Person(s): All
-  - Hours(s): 0.5
-  - Task: GTA Meeting
+  + Person(s): All
+  + Hours(s): 0.5
+  + Task: GTA Meeting
 
 * 2024/09/27
-  - Person(s): Cody
-  - Hour(s): 5.5
-  - Task: setup docker and docker-compose
+  + Person(s): Cody
+  + Hour(s): 5.5
+  + Task: setup docker and docker-compose
 
 * 2024/09/28
-  - Person(s): Hayden
-  - Hour(s): 1
-  - Task: Created task time estimates
+  + Person(s): Hayden
+  + Hour(s): 1
+  + Task: Created task time estimates
+
+* 2024/09/28
+  + Person(s): Cody
+  + Hour(s): 5
+  + Tasks:
+    - Fix docker db/backend setup (0.5hrs),
+    - Implement initial offline mode (4hrs),
+    - Fix offline stability (0.5hrs),

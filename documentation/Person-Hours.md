@@ -34,7 +34,7 @@ Cumulative Table
 | Cody     | 11.5   |
 | Joon     | 0.5   |
 | Hayden   | 1.5   |
-| Harrison | 0.5   |
+| Harrison | 1.5   |
 
 Here is a log of person hours, updated sequentially with oldest first.
 
@@ -65,3 +65,10 @@ Here is a log of person hours, updated sequentially with oldest first.
     - Fix docker db/backend setup (0.5hrs),
     - Implement initial offline mode (4hrs),
     - Fix offline stability (0.5hrs),
+
+* 2024/09/29
+   + Person(s): Harrison
+   + Hour(s): 1
+   + Tasks:
+     - Run and test game locally
+     - Attempt to implement AI logic

@@ -38,7 +38,7 @@ Cumulative Table
 | Cody     | 12.5  |
 | Joon     | 2.5   |
 | Hayden   | 3.5   |
-| Harrison | 3.5   |
+| Harrison | 5.0   |
 
 Here is a log of person hours, updated sequentially with oldest first.
 
@@ -84,3 +84,10 @@ Here is a log of person hours, updated sequentially with oldest first.
   + Tasks:
     - Meeting discussing offline API versus online API
     - More frameworking for mock online API
+   
+      
+* 2024/09/29
+  + Person(s): Harrison
+  + Hours(s): 1.5
+  + Tasks:
+   - Implement logic for Medium and Hard difficulty 

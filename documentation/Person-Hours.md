@@ -34,10 +34,10 @@ Estimate by task:
 Cumulative Table
 | Person   | Hours |
 | -------- | ----- |
-| Kyler    | 2.5   |
+| Kyler    | 4.0   |
 | Cody     | 13.0  |
-| Joon     | 2.5   |
-| Hayden   | 3.5   |
+| Joon     | 5.5   |
+| Hayden   | 5.0   |
 | Harrison | 5.5   |
 
 Here is a log of person hours, updated sequentially with oldest first.
@@ -57,6 +57,11 @@ Here is a log of person hours, updated sequentially with oldest first.
   + Hour(s): 5.5
   + Task: setup docker and docker-compose
 
+* 2024/09/27
+  + Person(s): Joon
+  + Hour(s): 0.25
+  + Task: test docker and docker-compose
+
 * 2024/09/28
   + Person(s): Hayden
   + Hour(s): 1
@@ -69,6 +74,13 @@ Here is a log of person hours, updated sequentially with oldest first.
     - Fix docker db/backend setup (0.5hrs),
     - Implement initial offline mode (4hrs),
     - Fix offline stability (0.5hrs),
+
+* 2024/09/28
+  + Persons(s): Joon
+  + Hour(s): 1.25
+  + Tasks:
+    - Attempting to finish implementing offline mode (1 hr)
+    - Attempt to implement AI logic (0.25 hrs)
 
 * 2024/09/29
    + Person(s): Harrison
@@ -90,3 +102,9 @@ Here is a log of person hours, updated sequentially with oldest first.
   + Hours(s): 2
   + Tasks:
    - Implement logic for Medium and Hard difficulty 
+
+* 2024/09/29
+  + Person(s): Joon, Hayden, Kyler
+  + Hours(s): 1.5
+  + Tasks:
+    - Implement AI ship placement

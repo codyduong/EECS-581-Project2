@@ -76,14 +76,14 @@ docker-compose up --force-recreate --watch
   + Hard bot will shoot perfectly at your ships
   
 The primary changed files are 
-* [`api-client-offline.service.ts`](./cmx-battleship\src\app\services\api-client-offline.service.ts)
-  + Mocks the online API for offline play, it is loosely based on [`api-client.service.ts`](./cmx-battleship\src\app\services\api-client.service.ts)
+* [`api-client-offline.service.ts`](https://github.com/codyduong/cmx-battleship/tree/cff93f60b97daea7936a513bc25596357977fa25/src/app/services/api-client-offline.service.ts)
+  + Mocks the online API for offline play, it is loosely based on [`api-client.service.ts`](https://github.com/codyduong/cmx-battleship/tree/cff93f60b97daea7936a513bc25596357977fa25/src/app/services/api-client.service.ts)
     with extra helper methods for accomdating calcuating the current game state as well as where the AI lives.
-* [`landing-page.component.ts`, `landing-page.component.html`, `landing-page.component.scss`]
+* [`landing-page.component.ts`, `landing-page.component.html`, `landing-page.component.scss`](https://github.com/codyduong/cmx-battleship/tree/cff93f60b97daea7936a513bc25596357977fa25/src/app/pages/landing-page)
   + Modified to support offline play button as well as direct appropriately based on selection
-* [`offline.component.ts`, `offline.component.html`, `offline.component.scss`](cmx-battleship\src\app\pages\offline\)
+* [`offline.component.ts`, `offline.component.html`, `offline.component.scss`](https://github.com/codyduong/cmx-battleship/tree/cff93f60b97daea7936a513bc25596357977fa25/src/app/pages/offline/)
   + This is a modified copy of the lobby page, instead displaying one column with the bots to play against.
-* [`play-game.component.ts`](cmx-battleship\src\app\pages\play-game\play-game.component.ts)
+* [`play-game.component.ts`](https://github.com/codyduong/cmx-battleship/tree/cff93f60b97daea7936a513bc25596357977fa25/src/app/pages/play-game/play-game.component.ts)
   + Only modified typescript file (ie. preserves UI exact same as offline and online play). This points to the `offline.service`
     when the user is detected as having selected offline play.
 

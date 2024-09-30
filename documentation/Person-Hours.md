@@ -14,16 +14,16 @@ Estimate by task:
 
      
 
-2. AI Opponent (est. 4.5 hours)
+2. AI Opponent (est. 4.5 hours, act 4 hours)
    - Easy AI - (est. 1.5 hours, act. 0.5 hours)
 
      * AI fires at random spaces on grid.
 
-   - Medium AI (est. 1.5 hours)
+   - Medium AI (est. 1.5 hours, act. 2 hours)
 
      * AI fires at random spaces until a ship is hit. The AI then fires at orthogonally adjacent spaces.
 
-   - Hard AI (est. 1.5 hours)
+   - Hard AI (est. 1.5 hours, act. 1.5 hours)
 
      * AI knows where the player's ships are and does not miss.
 

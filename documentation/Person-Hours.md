@@ -35,10 +35,10 @@ Cumulative Table
 | Person   | Hours |
 | -------- | ----- |
 | Kyler    | 2.5   |
-| Cody     | 12.5  |
+| Cody     | 13.0  |
 | Joon     | 2.5   |
 | Hayden   | 3.5   |
-| Harrison | 5.0   |
+| Harrison | 5.5   |
 
 Here is a log of person hours, updated sequentially with oldest first.
 
@@ -74,11 +74,10 @@ Here is a log of person hours, updated sequentially with oldest first.
    + Person(s): Harrison
    + Hour(s): 1
    + Tasks:
-
      - Run and test game locally
      - Attempt to implement AI logic
 
-* 2024/09/28
+* 2024/09/29
   + Person(s): All
   + Hour(s): 2
   + Tasks:
@@ -87,7 +86,7 @@ Here is a log of person hours, updated sequentially with oldest first.
    
       
 * 2024/09/29
-  + Person(s): Harrison
-  + Hours(s): 1.5
+  + Person(s): Harrison, Cody
+  + Hours(s): 2
   + Tasks:
    - Implement logic for Medium and Hard difficulty 
